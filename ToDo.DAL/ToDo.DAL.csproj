@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EFInMemory\ToDolistContext.cs" />
+    <Compile Include="EF\EFToDoContext.cs" />
     <Compile Include="Entities\ToDo.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
