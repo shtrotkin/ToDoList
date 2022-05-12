@@ -15,8 +15,8 @@ namespace ToDo.UI
     {
         static void Main(string[] args)
         {
-            //IRepository managerRepository = new SerializeRepository(); //определяем способ работы с данными
-            IRepository managerRepository = new InmemoryRepository();
+            IRepository managerRepository = new SerializeRepository(); //определяем способ работы с данными
+            //IRepository managerRepository = new InmemoryRepository();
             List<ToDolist> todolist = managerRepository.GetToDoList(); //считываем хранящиеся данные в список для дальнейшей работы уже со списком
             //List<ToDolist> todolist = new List<ToDolist>();
             while (true)
